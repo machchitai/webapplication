@@ -1,8 +1,4 @@
-<%-- 
-    Document   : search_box
-    Created on : Jul 2, 2014, 2:26:11 PM
-    Author     : KVH
---%>
+
 
 <%@page import="java.util.Enumeration"%>
 <%@page import="java.util.Hashtable"%>

@@ -4,10 +4,6 @@
  */
 package com.my.bean;
 
-/**
- *
- * @author KVH
- */
 public class News {
     private int id;
     private String title;

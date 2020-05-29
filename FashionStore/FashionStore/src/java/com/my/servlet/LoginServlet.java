@@ -18,10 +18,7 @@ import com.my.recaptcha.VerifyUtils;
 import java.security.NoSuchAlgorithmException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-/**
- *
- * @author vivtory
- */
+
 public class LoginServlet extends HttpServlet {
 
     /**

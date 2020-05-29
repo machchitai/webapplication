@@ -4,11 +4,6 @@
  */
 package com.my.bean;
 
-/**
- *
- * @author vivtory
- */
-
 public class Category {
     private String id;
     private String name;

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : search_ajax
-    Created on : Jul 4, 2014, 10:28:16 AM
-    Author     : KVH
---%>
 
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.google.gson.Gson"%>

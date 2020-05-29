@@ -4,10 +4,7 @@
  */
 package com.my.bean;
 
-/**
- *
- * @author vivtory
- */
+
 public class ProductOrder extends Product{
     private String foID;
     private int quantity;

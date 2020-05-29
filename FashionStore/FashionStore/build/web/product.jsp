@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Nov 15, 2012, 11:41:30 PM
-    Author     : vivtory
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

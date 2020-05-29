@@ -1,8 +1,4 @@
-<%-- 
-    Document   : new_product
-    Created on : Jun 29, 2014, 10:36:45 PM
-    Author     : thanhlam
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!--<link rel="stylesheet" href="css/tinycarousel.css" type="text/css">

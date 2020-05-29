@@ -4,10 +4,6 @@
  */
 package com.my.bean;
 
-/**
- *
- * @author vivtory
- */
 public class User {
     private String username;
     private String pword;

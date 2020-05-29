@@ -1,8 +1,4 @@
-<%-- 
-    Document   : top_menu
-    Created on : Jul 1, 2014, 7:48:05 PM
-    Author     : thanhlam
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 

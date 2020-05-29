@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Nov 15, 2012, 11:41:30 PM
-    Author     : vivtory
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.*, com.my.bean.*, com.my.dao.*" %>
@@ -57,12 +52,8 @@
 				<div class="bottom-content-box"></div>
 			</div>
 		</div>
-		
-                
+		                
 	</div>
               
-                
-                
-        	
-       
-	<%@include file="admin_includes/admin_footer.jsp" %>
+<%@include file="admin_includes/admin_footer.jsp" %>
+    
