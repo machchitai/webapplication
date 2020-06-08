@@ -39,7 +39,9 @@
                 js.id = id;
                 js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=266459763505486&version=v2.0";
                 fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
         <div align="center" id="main">
             <div align="center" id="container"> 
                 <div id="header">
@@ -91,7 +93,7 @@
                                         <tr>
                                             <td colspan="2">
                                         <center>
-                                            <input class="btn_active" type="submit" name="register" value="Đăng nhập"/>&nbsp;&nbsp;&nbsp;
+                                            <input class="btn_active" type="submit" name="login" value="Đăng nhập"/>&nbsp;&nbsp;&nbsp;
                                             <input class="btn_active" type="reset" name="reset" value="Reset"/>
                                         </center>
                                         </td>

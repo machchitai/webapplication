@@ -5,7 +5,6 @@
 package com.my.servlet;
 
 import com.my.bean.*;
-import com.my.dao.CustomerDAO;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -53,11 +52,11 @@ public class LoginServlet extends HttpServlet {
             RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
             rd.forward(request, response);
         }
-        else if(request.getParameter("register") != null){
+        else if(request.getParameter("login") != null){
         String url = "/index.jsp";
         CustomerDAO cusDAO = new CustomerDAO();
         String username = (String)request.getParameter("username");
-        String pword = cusDAO.hash((String)request.getParameter("pword"));
+        String pword = (String)request.getParameter("pword");
         
         User user = new User(username, pword);
         

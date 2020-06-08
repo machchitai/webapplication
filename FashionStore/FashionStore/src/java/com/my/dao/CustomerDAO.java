@@ -94,7 +94,7 @@ public class CustomerDAO {
 
             CallableStatement cs2 = conn.prepareCall(query2);
             cs2.setString(1, cus.getUsername());
-            cs2.setString(2, hash(cus.getPword()));
+            cs2.setString(2, cus.getPword());
             cs2.setString(3, cus.getRole());
             cs2.setString(4, cus.getEmail());
             result = cs2.executeUpdate();
@@ -434,8 +434,7 @@ public class CustomerDAO {
         StringBuffer hexString = new StringBuffer();
         for (int i = 0; i < digest.length; i++) {
             if ((0xff & digest[i]) < 0x10) {
-                hexString.append("0"
-                        + Integer.toHexString((0xFF & digest[i])));
+                hexString.append("0" + Integer.toHexString((0xFF & digest[i])));
             } else {
                 hexString.append(Integer.toHexString(0xFF & digest[i]));
             }
