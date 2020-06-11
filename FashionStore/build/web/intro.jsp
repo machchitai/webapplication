@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>JSP Page</title>
+        <title>Giới thiệu</title>
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
         <style>
             *{
@@ -47,7 +47,7 @@
                                 <div class="content-box">
                                     <div class="top-content-box"><div class="top-content-box-icon"></div>THE WORLD-Sống phong cách!</div>
                                     <div class="middle-content-box">
-
+                                        She looked at her little girl who was about to become a teen. She tried to think back to when the girl had been younger but failed to pinpoint the exact moment when she had become a little too big to pick up and carry. It hit her all at once. She was no longer a little girl and she stood there speechless with fear, sadness, and pride all running through her at the same time.        
                                     </div>
                                     <div class="bottom-content-box"></div>
                                 </div>

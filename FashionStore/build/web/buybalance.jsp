@@ -16,7 +16,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>JSP Page</title>
+        <title>Nap Tien</title>
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     </head>
     <body>
@@ -27,7 +27,7 @@
                     <div align="center" class="menu">
                         <ul style="margin-left: 80px;">
                             <li><a href="index.jsp">Trang chủ</a></li>
-                            <li><a href="customerinfo.jsp">Khách hàng</a></li>
+                            <li><a href="customerinfo.jsp">Thông Tin</a></li>
                             <li><a href="buybalance.jsp" class="current">Nạp tiền</a></li>
                             <li><a href="ordercart.jsp">Giỏ hàng</a></li>
                             <li><a href="login.jsp?log=out">Đăng xuất</a></li>

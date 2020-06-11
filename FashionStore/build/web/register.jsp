@@ -14,7 +14,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>JSP Page</title>
+        <title>Đăng ký</title>
         <style>
             *{
                 font-family:"Open Sans",Arial,sans-serif!important;
@@ -72,23 +72,23 @@
                             <form name="registerform" action="CustomerRegisterServlet" method="post">
                                 <table>
                                     <tr>
-                                        <td>Username: &nbsp;</td>
+                                        <td>Tài khoản: &nbsp;</td>
                                         <td><input class="textfield" title="Nhập tài khoản bạn muốn sử dụng" type="text" name="username" autofocus="true" required="true"></td>
                                     </tr>
                                     <tr>
-                                        <td>Password: &nbsp;</td>
+                                        <td>Mật khẩu: &nbsp;</td>
                                         <td><input class="textfield" title="Nhập mật khẩu" type="password" name="pword" id="pword1" required="true" ></td>
                                     </tr>
                                     <tr>
-                                        <td>Confirm Password: &nbsp;</td>
+                                        <td>Nhập lại mật khẩu: &nbsp;</td>
                                         <td><input class="textfield" title="Nhập lại mật khẩu" type="password"  id="pword2" required="true" ></td>
                                     </tr>
                                     <tr>
-                                        <td>Fullname: &nbsp;</td>
+                                        <td>Họ tên:  &nbsp;</td>
                                         <td><input class="textfield" title="Nhập tên đầy đủ của bạn" type="text" name="fullname" required="true" ></td>
                                     </tr>
                                     <tr>
-                                        <td>Birthday: &nbsp;</td>
+                                        <td>Ngày sinh: &nbsp;</td>
                                         <td><input class="textfield" title="Nhập ngày tháng năm sinh" type="text" name="birthday" required="true" >&nbsp;yyyy/mm/dd</td>
                                     </tr>
                                     <tr>
@@ -96,11 +96,11 @@
                                         <td><input class="textfield" title="Nhập địa chỉ email của bạn" type="email" name="email" required="true"></td>
                                     </tr>
                                     <tr>
-                                        <td>Address: &nbsp;</td>
+                                        <td>Địa chỉ: &nbsp;</td>
                                         <td><input class="textfield" title="Nhập địa chỉ nhà của bạn" type="textarea" name="address" rows="5" cols="20"></td>
                                     </tr>
                                     <tr>
-                                        <td>Phone Number: &nbsp;</td>
+                                        <td>Số điện thoại: &nbsp;</td>
                                         <td><input class="textfield" title="Nhập số điện thoại của bạn" type="number" name="phonenumber"></td>
                                     </tr>
                                     <tr>

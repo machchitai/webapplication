@@ -16,7 +16,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>JSP Page</title>
+        <title>Thông tin khách hàng</title>
     </head>
     <body>
         <div align="center" id="main">
@@ -26,7 +26,7 @@
                     <div align="center" class="menu">
                         <ul style="margin-left: 80px;">
                             <li><a href="index.jsp">Trang chủ</a></li>
-                            <li><a href="customerinfo.jsp" class="current">Khách hàng</a></li>
+                            <li><a href="customerinfo.jsp" class="current">Thông Tin</a></li>
                             <li><a href="buybalance.jsp">Nạp tiền</a></li>
                             <li><a href="ordercart.jsp">Giỏ hàng</a></li>
                             <li><a href="login.jsp?log=out">Đăng xuất</a></li>

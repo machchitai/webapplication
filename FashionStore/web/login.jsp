@@ -21,7 +21,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>JSP Page</title>
+        <title>Đăng nhập</title>
         <script src='https://www.google.com/recaptcha/api.js?hl=vi'></script>
         <style>
             *{
@@ -74,11 +74,11 @@
                                 <form name="loginform" action="LoginServlet" method="post">
                                     <table>
                                         <tr>
-                                            <td>Username: &nbsp;</td>
+                                            <td>Tài khoản: &nbsp;</td>
                                             <td><input class="textfield" type="text" name="username" autofocus="true"></td>
                                         </tr>
                                         <tr>
-                                            <td>Password: &nbsp;</td>
+                                            <td>Mật khẩu: &nbsp;</td>
                                             <td><input class="textfield" type="password" name="pword"></td>
                                         </tr>
                                         <%if (!isCaptcha.equals("")) {%>
@@ -104,14 +104,14 @@
                                 <form name="Resetform" action="LoginServlet" method="post">
                                     <table>
                                         <tr>
-                                            <td>Username: &nbsp;</td>
+                                            <td>Tài khoản: &nbsp;</td>
                                             <td><input class="textfield" type="text" name="username" autofocus="true"></td>
                                         </tr>
 
 
                                         <td colspan="2">
                                         <center>
-                                            <input class="btn_active" type="submit" name="reset_password" value="Reset Password"/>&nbsp;&nbsp;&nbsp;
+                                            <input class="btn_active" type="submit" name="reset_password" value="Đặt lại mật khẩu"/>&nbsp;&nbsp;&nbsp;
                                         </center>
                                         </td>
 

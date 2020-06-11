@@ -19,7 +19,7 @@
                     <% } else { %>
                     <ul style="margin-left: 80px;">
                         <li><a href="index.jsp">Trang chủ</a></li>
-                        <li><a href="customerinfo.jsp">Khách hàng</a></li>
+                        <li><a href="customerinfo.jsp">Thông Tin </a></li>
                         <li><a href="buybalance.jsp">Nạp tiền</a></li>
                         <li><a href="ordercart.jsp">Giỏ hàng</a></li>
                         <li><a href="login.jsp?log=out">Đăng xuất</a></li>

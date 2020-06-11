@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/nivo-slider.css" type="text/css">
         <link rel="stylesheet" href="css/themes/default/default.css" type="text/css">
         <link rel="stylesheet" href="css/cloudzoom.css" type="text/css">
-        <title>JSP Page</title>
+        <title>FASHIONISTA</title>
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
         <style>
             *{
