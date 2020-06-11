@@ -41,7 +41,7 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         </script>
-        
+
         <div align="center" id="main">
             <div align="center" id="container"> 
                 <div id="header">
@@ -133,4 +133,10 @@
                     </div>
 
                     <%@include file="includes/footer.jsp" %>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
 

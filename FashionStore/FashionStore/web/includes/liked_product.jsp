@@ -1,3 +1,8 @@
+<%-- 
+    Document   : liked_product
+    Created on : Jun 29, 2014, 10:39:59 PM
+    Author     : thanhlam
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
