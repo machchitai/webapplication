@@ -9,6 +9,10 @@ import java.util.Date;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
+/**
+ *
+ * @author vivtory
+ */
 public class OrderCart {
     private String id;
     private Customer customer;

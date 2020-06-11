@@ -13,6 +13,10 @@ import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.Hashtable;
 
+/**
+ *
+ * @author vivtory
+ */
 public class BalanceSourceDAO {
     Connection conn = null;
     public BalanceSourceDAO() {}

@@ -8,23 +8,33 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ *
+ * @author vivtory
+ */
 public class Common {
-   private Connection con = null;    
-    private String url = "jdbc:mysql://localhost:3306/fashionstore";
-//    private  String dbName = "fashionstore";
-    private String driver ="com.mysql.cj.jdbc.Driver";
-    private  String userName = "root";
-    private  String password = "root";
+   private Connection conn = null;
+//    private String url = "jdbc:mysql://mysql55.metawerx.net:3509/hungtqno1?autoReconnect=true";
+//    //private String dbName = "fashionstore";
+//    private String driver ="com.mysql.jdbc.Driver";
+//    private String userName = "hungtqno1";
+//    private String password = "H@37hb3a7n";
+    
+    private String url = "jdbc:mysql://localhost/";
+    private String dbName = "fashionstore";
+    private String driver ="com.mysql.jdbc.Driver";
+    private String userName = "root";
+    private String password = "";
     public Common() {}
     public Connection getDBConnection(){
-//        url += dbName;
+        url += dbName;
         try {
             Class.forName(driver).newInstance();
-            con = DriverManager.getConnection(url, userName, password);
+            conn = DriverManager.getConnection(url, userName, password);
         } catch (Exception e) {
             e.printStackTrace();
         }  
-        return con;
+        return conn;
     }
     public static void main(String[] args) {
         Common db=new Common();

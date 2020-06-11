@@ -16,6 +16,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Hashtable;
 
+/**
+ *
+ * @author vivtory
+ */
 public class CategoryDAO {
     private Connection conn;
     private int noOfRecords;

@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : index
+    Created on : Nov 15, 2012, 11:41:30 PM
+    Author     : vivtory
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.*, com.my.bean.*, com.my.dao.*" %>
@@ -25,37 +29,37 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
         <title>JSP Page</title>
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <style>
+                <style>
             *{
                 font-family:"Open Sans",Arial,sans-serif!important;
             }
         </style>
         <style >
-            #top{
-                width:50px;
-                height:50px;
-                position:fixed;/*giu co dinh*/
-                text-indent:-9999px;
-                cursor:pointer;/*tao bieu tuong cho biet co the tac dong*/
-                background: url(images/icon/top.png) no-repeat 0 0;
-                bottom:10px; right:10px;
-            }
+#top{
+		width:50px;
+		height:50px;
+		position:fixed;/*giu co dinh*/
+		text-indent:-9999px;
+		cursor:pointer;/*tao bieu tuong cho biet co the tac dong*/
+		background: url(images/icon/top.png) no-repeat 0 0;
+		bottom:10px; right:10px;
+	}
         </style>
 
-        <script>
-            $(document).ready(function () {
-                $('#main').append('<div id="top" title="Trở về đầu trang">back to top</div>');
-                $(window).scroll(function () {
-                    if ($(window).scrollTop() !== 0) {
-                        $('#top').fadeIn();
-                    } else
-                        $('#top').fadeOut();
-                });
-                $('#top').click(function () {
-                    $('html, body').animate({scrollTop: 0}, 500);
-                });
-            });
-        </script>
+<script>
+	$(document).ready(function(){
+		$('#main').append('<div id="top" title="Trở về đầu trang">back to top</div>');
+		$(window).scroll(function(){
+			if($(window).scrollTop() !==0){
+				$('#top').fadeIn();
+			}
+			else $('#top').fadeOut();
+		});
+		$('#top').click(function(){
+			$('html, body').animate({scrollTop:0},500);
+		});
+	});
+</script>
     </head>
     <body>
         <div align="center" id="main">
@@ -102,44 +106,44 @@
                                 </div>
                                 <div class="bottom-content-box"></div>
                             </div>
-
-                            <div class="content-box">
+                                    
+                                    <div class="content-box">
                                 <div class="top-content-box">
                                     <div class="top-content-box-icon"></div>Sản phẩm bán chạy</div>
                                 <div class="middle-content-box">
-                                    <ul id="show_product">
-                                        <%
-                                            Hashtable hotproducts = productDAO.selectSixHotFood();
-                                            Enumeration enumhotproducts = hotproducts.elements();
-
-                                            while (enumhotproducts.hasMoreElements()) {
-                                                Product product = (Product) enumhotproducts.nextElement();
-                                                if (count % 3 == 0) {
-                                                    out.print("<tr>");
-                                                }
-                                        %>
-                                        <li>
-                                            <a href="productdetail.jsp?productid=<%=product.getId()%>">
-                                                <img src="images_data/thoitrangbegai_thumb/<%=product.getImage()%>" width="150" height="100"/>
-                                            </a><br>
-                                            <p><b><%=product.getPriceToString() + " VNĐ"%></b></p>
-                                        </li>
-                                        <%        count++;
-                                                if (count % 3 == 0 || !enumhotproducts.hasMoreElements()) {
-                                                    out.print("</tr>");
-                                                }
-                                            }
-                                        %>
-                                    </ul>
+                                     <ul id="show_product">
+                                <%
+                                    Hashtable hotproducts = productDAO.selectSixHotFood();
+                                    Enumeration enumhotproducts = hotproducts.elements();
+                                    
+                                    while (enumhotproducts.hasMoreElements()) {
+                                        Product product = (Product) enumhotproducts.nextElement();
+                                        if (count % 3 == 0) {
+                                            out.print("<tr>");
+                                        }
+                                %>
+                                <li>
+                                    <a href="productdetail.jsp?productid=<%=product.getId()%>">
+                                        <img src="images_data/thoitrangbegai_thumb/<%=product.getImage()%>" width="150" height="100"/>
+                                    </a><br>
+                                    <p><b><%=product.getPriceToString() + " VNĐ"%></b></p>
+                                </li>
+                                <%        count++;
+                                        if (count % 3 == 0 || !enumhotproducts.hasMoreElements()) {
+                                            out.print("</tr>");
+                                        }
+                                    }
+                                %>
+                            </ul>
                                 </div>
                                 <div class="bottom-content-box"></div>
                             </div>
-
+                                
                         </div><!--end noi dung-->
+                        
+                        
 
-
-
-
+                        
                         <div class="right-content">
                             <div class="right-content-box">
                                 <%@include file="includes/search_box.jsp" %>
@@ -149,6 +153,7 @@
                                 <div class="middle-right-content-box">
                                     <table>
                                         <%
+
                                             Hashtable newproducts = productDAO.selectNewFood();
                                             Enumeration enumnewproducts = newproducts.elements();
                                             while (enumnewproducts.hasMoreElements()) {
@@ -165,8 +170,3 @@
                         </div>
                     </div>
                     <%@include file="includes/footer.jsp" %>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>

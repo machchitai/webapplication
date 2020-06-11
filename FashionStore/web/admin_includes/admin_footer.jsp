@@ -1,29 +1,31 @@
-<%-- 
-    Document   : admin_footer
-    Created on : Jul 2, 2014, 4:20:42 PM
-    Author     : KVH
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-	<div id="footer">
-		<div class="foot_ke"></div>
+<div id="footer">
+    <div class="foot_left">
+        <strong style="margin-left:20px; text-transform:uppercase; font-weight:bold">Copyright 2020 © ADMIN fashionista.com.vn</strong><br>
 
+        <span class="chu_tieude">Địa chỉ : số 3 phường Linh Trung quận Thủ Đức </span><br>
 
-		<div class="foot_ke"></div>
-	</div>
+        <span class="chu_tieude">Hotline : 0123456789 </span><br>
+
+        <span class="chu_tieude">Email : fashionista@gmail.com</span>   
+
     </div>
-                <script type="text/javascript">
- 
-$("tr.tr_hover").hover(
-  function () {
-    $(this).css({"background":"rgba(251,222,196,0.8)"});
-  }, 
-  function () {
-    $(this).css("background","");
-  }
-);
- 
+</div>
+</div>
+<script type="text/javascript">
+
+    $("tr.tr_hover").hover(
+            function () {
+                $(this).css({"background": "rgba(251,222,196,0.8)"});
+            },
+            function () {
+                $(this).css("background", "");
+            }
+    );
+
 </script>
-    </body>
+</body>
 </html>
 

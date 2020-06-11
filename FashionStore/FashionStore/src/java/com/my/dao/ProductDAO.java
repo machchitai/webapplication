@@ -16,6 +16,10 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/**
+ *
+ * @author vivtory
+ */
 public class ProductDAO {
     private Connection conn;
     private int noOfRecords;

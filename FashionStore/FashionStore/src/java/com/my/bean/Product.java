@@ -4,7 +4,10 @@
  */
 package com.my.bean;
 
-
+/**
+ *
+ * @author vivtory
+ */
 public class Product {
     private String id;
     private String catID;

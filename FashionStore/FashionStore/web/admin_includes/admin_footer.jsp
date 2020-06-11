@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : admin_footer
+    Created on : Jul 2, 2014, 4:20:42 PM
+    Author     : KVH
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 	<div id="footer">

@@ -14,10 +14,7 @@ import java.sql.Statement;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-/**
- *
- * @author vivtory
- */
+
 public class OrderDAO {
     private Connection conn;
     public OrderDAO() {}

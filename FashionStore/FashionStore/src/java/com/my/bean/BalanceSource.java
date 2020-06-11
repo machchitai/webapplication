@@ -7,7 +7,10 @@ package com.my.bean;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-
+/**
+ *
+ * @author vivtory
+ */
 public class BalanceSource {
     private String source;
     private int price;
