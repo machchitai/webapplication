@@ -47,7 +47,18 @@
                                 <div class="content-box">
                                     <div class="top-content-box"><div class="top-content-box-icon"></div>THE WORLD-Sống phong cách!</div>
                                     <div class="middle-content-box">
-                                        She looked at her little girl who was about to become a teen. She tried to think back to when the girl had been younger but failed to pinpoint the exact moment when she had become a little too big to pick up and carry. It hit her all at once. She was no longer a little girl and she stood there speechless with fear, sadness, and pride all running through her at the same time.        
+                                        Chào mừng bạn đến với FASHIONISTA, nguồn số một của bạn cho tất cả các nguồn thời trang. Chúng tôi dành riêng để cung cấp cho bạn những bộ quần áo mới tốt nhất, chú trọng vào trang phục nam, quần áo nữ và phong cách trẻ em.
+
+
+<br> <br> <br> Được thành lập vào năm 2020 bởi những người sáng tạo, FASHIONISTA đã đi một chặng đường dài từ khi bắt đầu ở thành phố Hồ Chí Minh. Khi Người sáng tạo lần đầu tiên bắt đầu, niềm đam mê của họ đối với [thông điệp thương hiệu - ví dụ: "Sản phẩm làm sạch thân thiện với môi trường"] đã thúc đẩy họ bắt đầu kinh doanh riêng.
+
+
+<br> <br> <br> Chúng tôi hy vọng bạn thích sản phẩm của chúng tôi nhiều như chúng tôi thích cung cấp chúng cho bạn. Nếu bạn có bất kỳ câu hỏi hoặc ý kiến, xin vui lòng liên hệ với chúng tôi.
+
+
+<br> <br> Trân trọng,
+
+<br> <br> Admins
                                     </div>
                                     <div class="bottom-content-box"></div>
                                 </div>
